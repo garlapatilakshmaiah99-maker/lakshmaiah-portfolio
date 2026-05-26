@@ -1,7 +1,7 @@
 import React from "react";
 import profileImg from "./assets/WhatsApp Image 2026-05-26 at 8.36.07 PM.jpeg";
 import { ReactTyped } from "react-typed";
-import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
+
 const profile = {
   name: "Garlapati Lakshmaiah",
   role: "Frontend Developer",

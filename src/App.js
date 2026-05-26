@@ -122,8 +122,18 @@ function App() {
             <a href="#projects" className="btn primary">
               View Projects
             </a>
+
             <a href={`mailto:${profile.email}`} className="btn secondary">
               Hire Me
+            </a>
+
+            <a
+              href="https://github.com/garlapatilakshmaiah99-maker"
+              target="_blank"
+              rel="noreferrer"
+              className="btn"
+            >
+              GitHub
             </a>
           </div>
 

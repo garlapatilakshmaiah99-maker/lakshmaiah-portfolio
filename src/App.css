@@ -566,7 +566,31 @@ footer {
   box-shadow: 0 0 25px rgba(0,255,255,0.4);
 }
 .btn{
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
   transition: 0.3s ease;
+}
+
+.btn:hover{
+  transform: translateY(-3px);
+}
+
+.primary{
+  background: #00bcd4;
+  color: white;
+}
+
+.secondary{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.hero-actions{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .btn:hover{

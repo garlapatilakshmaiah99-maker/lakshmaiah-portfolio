@@ -34,33 +34,30 @@ const skills = [
 ];
 
 const projects = [
-  {
-    title: "E-Commerce Web Application",
-    type: "React Project",
-    description:
-      "A responsive e-commerce application with reusable product cards, cart functionality, filters, dynamic API data and clean component structure.",
-    tech: ["React.js", "JSX", "REST API", "CSS Grid", "useState", "useEffect"],
-  },
-  {
-    title: "Admin Dashboard",
-    type: "Dashboard UI",
-    description:
-      "Modern dashboard interface with sidebar navigation, stat cards, data tables, charts layout and responsive design for all screen sizes.",
-    tech: ["React.js", "API Integration", "Reusable Components", "Flexbox"],
-  },
+  
   {
     title: "Sign Up & Login Pages",
     type: "Authentication UI",
     description:
       "Real-time authentication pages using controlled inputs, validation, error messages and clean form component reusability.",
     tech: ["React Forms", "useState", "Validation", "CSS3"],
+    live: "https://authentication-122u-qpivznofa-lakshmaiah-s-projects.vercel.app/"
   },
   {
-    title: "Responsive Landing Page",
-    type: "Static Website",
+  title: "Responsive Landing Page",
+  type: "Static Website",
+  description:
+    "A fully responsive landing page created with semantic HTML, CSS animations, layout alignment and Netlify deployment.",
+  tech: ["HTML5", "CSS3", "Flexbox", "Netlify"],
+  live: "https://hydra-landing-page-design.netlify.app",
+},
+  {
+    title: "React Admin Dashboard",
+    type: "Full Stack UI",
     description:
-      "A fully responsive landing page created with semantic HTML, CSS animations, layout alignment and Netlify deployment.",
-    tech: ["HTML5", "CSS3", "Flexbox", "Netlify"],
+      "Responsive admin dashboard with login/signup authentication, sidebar navigation, product management and user management system built using React.js.",
+    tech: ["React.js", "JavaScript", "HTML5", "CSS3", "REST APIs"],
+    live: "https://react-admin-dashboard-pxk7-75yjuu43w-lakshmaiah-s-projects.vercel.app/",
   },
 ];
 
@@ -241,6 +238,14 @@ function App() {
                   <span key={i}>{item}</span>
                 ))}
               </div>
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noreferrer"
+                className="project-btn"
+              >
+                Live Demo
+              </a>
             </div>
           ))}
         </div>
